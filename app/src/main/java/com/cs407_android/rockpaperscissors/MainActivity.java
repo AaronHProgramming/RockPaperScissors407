@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void playPressed(View view) {
         //TODO: Put to start game play activity
+        Intent startGame = new Intent(this, PlayActivity.class);
+        startActivity(startGame);
     }
 
     @Override
